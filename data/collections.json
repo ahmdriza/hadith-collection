@@ -1,0 +1,70 @@
+{
+    "collections": [
+        {
+            "id": "sahih-bukhari",
+            "name": "Sahih al-Bukhari",
+            "arabicName": "صحيح البخاري",
+            "author": "Imam Muhammad ibn Ismail al-Bukhari",
+            "totalHadiths": 7563,
+            "totalBooks": 97,
+            "description": "Collected by Imam Muhammad ibn Ismail al-Bukhari. Considered the most authentic hadith collection after the Quran.",
+            "grade": "Sahih",
+            "slug": "sahih-bukhari"
+        },
+        {
+            "id": "sahih-muslim",
+            "name": "Sahih Muslim",
+            "arabicName": "صحيح مسلم",
+            "author": "Imam Muslim ibn al-Hajjaj",
+            "totalHadiths": 7190,
+            "totalBooks": 56,
+            "description": "Compiled by Imam Muslim. Second most authentic hadith collection, known for its strict criteria.",
+            "grade": "Sahih",
+            "slug": "sahih-muslim"
+        },
+        {
+            "id": "sunan-abu-dawud",
+            "name": "Sunan Abu Dawud",
+            "arabicName": "سنن أبي داود",
+            "author": "Imam Abu Dawud al-Sijistani",
+            "totalHadiths": 5274,
+            "totalBooks": 43,
+            "description": "Focuses on legal hadiths related to jurisprudence and Islamic law.",
+            "grade": "Mixed",
+            "slug": "sunan-abu-dawud"
+        },
+        {
+            "id": "jami-tirmidhi",
+            "name": "Jami' at-Tirmidhi",
+            "arabicName": "جامع الترمذي",
+            "author": "Imam at-Tirmidhi",
+            "totalHadiths": 3956,
+            "totalBooks": 49,
+            "description": "Known for commenting on the grade and authentication of each hadith.",
+            "grade": "Mixed",
+            "slug": "jami-tirmidhi"
+        },
+        {
+            "id": "sunan-nasai",
+            "name": "Sunan an-Nasa'i",
+            "arabicName": "سنن النسائي",
+            "author": "Imam an-Nasa'i",
+            "totalHadiths": 5758,
+            "totalBooks": 51,
+            "description": "One of the six major hadith collections, focusing on legal matters.",
+            "grade": "Mixed",
+            "slug": "sunan-nasai"
+        },
+        {
+            "id": "sunan-ibn-majah",
+            "name": "Sunan Ibn Majah",
+            "arabicName": "سنن ابن ماجه",
+            "author": "Imam Ibn Majah",
+            "totalHadiths": 4341,
+            "totalBooks": 37,
+            "description": "Sixth of the major hadith collections, contains unique hadiths not found in others.",
+            "grade": "Mixed",
+            "slug": "sunan-ibn-majah"
+        }
+    ]
+}

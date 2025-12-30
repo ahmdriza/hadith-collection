@@ -1,0 +1,54 @@
+{
+    "books": [
+        {
+            "id": "bukhari-book-1",
+            "collectionId": "sahih-bukhari",
+            "bookNumber": 1,
+            "name": "Book of Revelation",
+            "arabicName": "كتاب بدء الوحي",
+            "slug": "book-of-revelation",
+            "totalHadiths": 7,
+            "description": "The first book discussing how revelation began to the Prophet Muhammad"
+        },
+        {
+            "id": "bukhari-book-2",
+            "collectionId": "sahih-bukhari",
+            "bookNumber": 2,
+            "name": "Book of Belief",
+            "arabicName": "كتاب الإيمان",
+            "slug": "book-of-belief",
+            "totalHadiths": 52,
+            "description": "Discusses the fundamentals of Islamic faith and belief"
+        },
+        {
+            "id": "bukhari-book-3",
+            "collectionId": "sahih-bukhari",
+            "bookNumber": 3,
+            "name": "Book of Knowledge",
+            "arabicName": "كتاب العلم",
+            "slug": "book-of-knowledge",
+            "totalHadiths": 76,
+            "description": "Hadiths about seeking knowledge and its importance in Islam"
+        },
+        {
+            "id": "bukhari-book-4",
+            "collectionId": "sahih-bukhari",
+            "bookNumber": 4,
+            "name": "Book of Ablution",
+            "arabicName": "كتاب الوضوء",
+            "slug": "book-of-ablution",
+            "totalHadiths": 113,
+            "description": "Detailed guidance on performing ablution (wudu)"
+        },
+        {
+            "id": "bukhari-book-8",
+            "collectionId": "sahih-bukhari",
+            "bookNumber": 8,
+            "name": "Book of Prayer",
+            "arabicName": "كتاب الصلاة",
+            "slug": "book-of-prayer",
+            "totalHadiths": 172,
+            "description": "Comprehensive collection about the Islamic prayer (Salah)"
+        }
+    ]
+}

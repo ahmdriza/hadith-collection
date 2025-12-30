@@ -1,0 +1,126 @@
+{
+    "hadiths": [
+        {
+            "id": "bukhari-1",
+            "collectionId": "sahih-bukhari",
+            "bookId": "bukhari-book-2",
+            "hadithNumber": 1,
+            "chapter": "How the Divine Inspiration started",
+            "arabicText": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ",
+            "englishText": "The reward of deeds depends upon the intentions and every person will get the reward according to what he has intended. So whoever emigrated for worldly benefits or for a woman to marry, his emigration was for what he emigrated for.",
+            "narrator": "Umar ibn Al-Khattab",
+            "narratorChain": [
+                "Umar ibn Al-Khattab",
+                "Alqamah ibn Waqqas al-Laithi",
+                "Muhammad ibn Ibrahim at-Taimi",
+                "Yahya ibn Sa'id al-Ansari",
+                "Imam Bukhari"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith emphasizes the importance of sincerity in all actions. It teaches that the acceptance of deeds by Allah depends on the intention behind them. This is one of the most fundamental hadiths in Islamic jurisprudence.",
+            "topics": [
+                "intention",
+                "sincerity",
+                "faith"
+            ],
+            "reference": "Sahih al-Bukhari 1"
+        },
+        {
+            "id": "bukhari-2",
+            "collectionId": "sahih-bukhari",
+            "bookId": "bukhari-book-2",
+            "hadithNumber": 8,
+            "chapter": "The five pillars of Islam",
+            "arabicText": "بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَالحَجِّ، وَصَوْمِ رَمَضَانَ",
+            "englishText": "Islam is built upon five pillars: testifying that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing prayer, paying zakah, performing Hajj, and fasting in Ramadan.",
+            "narrator": "Abdullah ibn Umar",
+            "narratorChain": [
+                "Abdullah ibn Umar",
+                "Talhah ibn Musarrif",
+                "Abdur Rahman ibn Awsajah",
+                "Al-Bara ibn Azib",
+                "Imam Bukhari"
+            ],
+            "grade": "Sahih",
+            "commentary": "This fundamental hadith outlines the five essential practices that form the foundation of Islamic faith and practice.",
+            "topics": [
+                "pillars-of-islam",
+                "faith",
+                "worship"
+            ],
+            "reference": "Sahih al-Bukhari 8"
+        },
+        {
+            "id": "bukhari-50",
+            "collectionId": "sahih-bukhari",
+            "bookId": "bukhari-book-2",
+            "hadithNumber": 50,
+            "chapter": "The characteristics of faith",
+            "arabicText": "الْمُؤْمِنُ مَنْ أَمِنَهُ النَّاسُ عَلَى دِمَائِهِمْ وَأَمْوَالِهِمْ",
+            "englishText": "The believer is one from whom people are safe regarding their blood and wealth.",
+            "narrator": "Abu Huraira",
+            "narratorChain": [
+                "Abu Huraira",
+                "Abu Salih",
+                "Al-A'raj",
+                "Abu Zunad",
+                "Imam Bukhari"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith defines true faith through practical behavior - a believer is recognized by their trustworthiness and the safety others feel around them.",
+            "topics": [
+                "faith",
+                "character",
+                "trustworthiness"
+            ],
+            "reference": "Sahih al-Bukhari 50"
+        },
+        {
+            "id": "muslim-1",
+            "collectionId": "sahih-muslim",
+            "bookId": "muslim-book-1",
+            "hadithNumber": 1,
+            "chapter": "The Book of Faith",
+            "arabicText": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ",
+            "englishText": "Actions are judged by intentions.",
+            "narrator": "Umar ibn Al-Khattab",
+            "narratorChain": [
+                "Umar ibn Al-Khattab",
+                "Alqamah ibn Waqqas",
+                "Muhammad ibn Ibrahim",
+                "Imam Muslim"
+            ],
+            "grade": "Sahih",
+            "commentary": "Similar to Bukhari's version, emphasizing the critical importance of intention in Islam.",
+            "topics": [
+                "intention",
+                "faith"
+            ],
+            "reference": "Sahih Muslim 1"
+        },
+        {
+            "id": "abu-dawud-4607",
+            "collectionId": "sunan-abu-dawud",
+            "bookId": "abu-dawud-book-42",
+            "hadithNumber": 4607,
+            "chapter": "Good Character",
+            "arabicText": "إِنَّ مِنْ خِيَارِكُمْ أَحْسَنَكُمْ أَخْلاَقًا",
+            "englishText": "The best among you are those who have the best manners and character.",
+            "narrator": "Abdullah ibn Amr",
+            "narratorChain": [
+                "Abdullah ibn Amr",
+                "Abu Salamah",
+                "Abu Huraira",
+                "Imam Abu Dawud"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith highlights the importance of good character and manners in Islam, showing that excellence in faith is reflected in how one treats others.",
+            "topics": [
+                "character",
+                "manners",
+                "excellence"
+            ],
+            "reference": "Sunan Abu Dawud 4607"
+        }
+    ]
+}

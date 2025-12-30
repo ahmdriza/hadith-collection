@@ -1,0 +1,97 @@
+{
+    "collectionDetails": [
+        {
+            "id": "sahih-bukhari",
+            "introduction": "Sahih al-Bukhari is a collection of hadith compiled by Abu Abdullah Muhammad Ibn Isma'il al-Bukhari (rahimahullah). His collection is recognized by the overwhelming majority of the Muslim world to be one of the most authentic collections of the Sunnah of the Prophet (ﷺ). It contains roughly 7563 hadith (with repetitions) in 97 books. The translation provided here is by Dr. M. Muhsin Khan.",
+            "authorBio": {
+                "title": "Author Bio",
+                "content": "Imam al-Bukhari (rahimahullah) is known as the Amir al-Mu'minin in hadith. His genealogy is as follows: Abu Abdullah Muhammad Ibn Isma'il Ibn Ibrahim Ibn al-Mughirah Ibn Bardizbah al-Bukhari. His father Isma'il was a well-known and famous muhaddith in his time and had been blessed with the chance of being in the company of Imam Malik, Hammad Ibn Zaid and also Abdullah Ibn Mubarak (rahimahullahum).\n\nImam al-Bukhari (rahimahullah) was born on the day of Jumuah (Friday) the 13th of Shawwal 194 (A.H.). His father passed away in his childhood. At the age of sixteen after having memorized the compiled books of Imam Waki'y and Abdullah Ibn Mubarak, he performed Hajj with his elder brother and mother. After the completion of Hajj he remained in Makkah for a further two years and upon reaching the age of eighteen headed for Madinah, compiling the books \"Qadhaya-Sahabah wa at-Tabi'in\" and \"Tarikh al-Kabir.\" Imam al-Bukhari also traveled to other key centers of Arabia in search of knowledge like Syria, Egypt, Kufa, Basra, and Baghdad.\n\nImam al-Bukhari (rahimahullah) first started listening and learning ahadith in 205 A.H., and after benefiting from the 'ulama of his town he started his travels in 210 A.H. His memory was considered to be one of a kind; after listening to a hadith he would repeat it from memory. It has been known that in his childhood he had memorized 2,000 ahadith."
+            },
+            "methodology": {
+                "title": "Methods of Classification and Annotation",
+                "content": "Imam al-Bukhari (rahimahullah) imposed conditions which all narrators and testifiers in the hadith chain must have met before a hadith was included in his book:",
+                "points": [
+                    "All narrators in the chain must be just ('adl).",
+                    "All narrators in the chain must possess strong memory and all the Muhadditheen who possess great knowledge of ahadith must agree upon the narrators' ability to learn and memorize, along with their reporting techniques.",
+                    "The chain must be complete without any missing narrators.",
+                    "It must be known that consecutive narrators in the chain met each other (this is Imam al-Bukhari's extra condition)."
+                ],
+                "additionalInfo": "Imam an-Nawawi (rahimahullah) relates that all scholars in Islam have agreed that Sahih al-Bukhari has gained the status of being the most authentic book after the Qur'an. Sahih al-Bukhari consists of 7,563 ahadith including those ahadith which have been repeated. Without repetitions however, the total number of hadith is around 2,600."
+            },
+            "students": {
+                "title": "His Students",
+                "content": "In the year 864/250, he settled in Nishapur. It was there that he met Muslim ibn Al-Hajjaj, who would be considered his student, and eventually collector and organizer of the hadith collection Sahih Muslim which is considered second only to that of al-Bukhari."
+            },
+            "death": {
+                "title": "His Death",
+                "content": "Political problems led him to move to Khartank, a village near Samarkand where he died in the year 256 A.H./870 A.D."
+            },
+            "compilation": {
+                "title": "Compilation of the Book",
+                "content": "There are a number of books compiled by Imam al-Bukhari (rahimahullah). His Sahih is regarded as the highest authority of the collection of hadith. He named this book \"Al-Jami' al-Musnad as-Sahih al-Mukhtasar min Umuri Rasulullahi sallallahu 'alaihi wa sallam wa Sunanihi wa Ayyamihi.\" After he finished, he showed the manuscript to his teachers Imam Ahmad ibn Hanbal (rahimahullah) for approval, along with Ibn al-Madini, and lastly Ibn Ma'in. It has also been recorded that it took Imam al-Bukhari a period of 16 years to gather the ahadith and to write the Sahih, which sets the date back to 217 A.H. as the year in which he started the compilation; Imam al-Bukhari (rahimahullah) being merely 23 years of age.\n\nBefore he actually placed a hadith in his compilation he performed ghusl and prayed two raka'ah nafl prayers asking Allah for guidance. He finalized each hadith in the rawdah of Masjid an-Nabawi (between the Prophet's (ﷺ) grave and his minbar) and wrote the hadith in the masjid. Only after being completely satisfied with a hadith did he give it a place in his collection."
+            }
+        },
+        {
+            "id": "sahih-muslim",
+            "introduction": "Sahih Muslim is a collection of hadith compiled by Imam Muslim ibn al-Hajjaj al-Naysaburi (rahimahullah). His collection is recognized by the overwhelming majority of the Muslim world to be one of the most authentic collections of the Sunnah of the Prophet (ﷺ), second only to Sahih al-Bukhari. It contains approximately 7,190 hadith (with repetitions) in 56 books.",
+            "authorBio": {
+                "title": "Author Bio",
+                "content": "Imam Muslim (rahimahullah), full name Abul Hussain Muslim ibn al-Hajjaj al-Qushayri al-Naysaburi, was born in 204 A.H. (817/818 CE) in Nishapur, which was a major city of Khorasan (now in northeastern Iran). He was one of the most outstanding scholars of hadith of his time.\n\nHe traveled widely to gather hadith, visiting Iraq, the Hijaz (western Saudi Arabia), Syria, and Egypt. On his trips he collected over 300,000 hadith. It is said that he heard hadith from over 220 scholars.\n\nImam Muslim began compiling his Sahih at a very young age. It took him approximately 15 years to complete. Out of the 300,000 hadith he evaluated, he included only 7,190 (with repetitions), following strict criteria he had established."
+            },
+            "methodology": {
+                "title": "Methods of Classification and Annotation",
+                "content": "Imam Muslim's criteria for selecting hadith were very strict, though slightly different from Imam al-Bukhari's:",
+                "points": [
+                    "All narrators in the chain must be trustworthy and reliable.",
+                    "The chain must be continuous (muttasil) with no missing links.",
+                    "The hadith must not contradict more reliable hadith.",
+                    "The hadith must be free from hidden defects ('illah)."
+                ],
+                "additionalInfo": "Unlike Sahih al-Bukhari, Imam Muslim organized his collection by topic and placed all the narrations relating to a particular issue in one place. This organization makes Sahih Muslim easier to use for readers looking for hadith on specific topics."
+            },
+            "students": {
+                "title": "His Students",
+                "content": "Among his notable students were Imam at-Tirmidhi (compiler of Jami' at-Tirmidhi), Abu Hatim ar-Razi, Ibn Khuzaymah (author of Sahih Ibn Khuzaymah), and Abu 'Awanah. His students continued his legacy of hadith scholarship and many became renowned scholars themselves."
+            },
+            "death": {
+                "title": "His Death",
+                "content": "Imam Muslim (rahimahullah) passed away on Sunday, 25 Rajab 261 A.H. (May 875 CE) in Nishapur at the age of 55. He was buried in his hometown where his grave remains a site of visitation."
+            },
+            "compilation": {
+                "title": "Compilation of the Book",
+                "content": "Imam Muslim began compiling his Sahih at the request of his teacher, Imam Ahmad ibn Hanbal. The work took him approximately 15 years to complete. He traveled extensively throughout the Islamic world to collect hadith.\n\nImam Muslim's methodology was systematic and scholarly. He would typically present all the chains of narration for a hadith together, making it easier for scholars to compare and analyze them. This arrangement is considered one of the distinctive features of his collection."
+            }
+        },
+        {
+            "id": "sunan-abu-dawud",
+            "introduction": "Sunan Abu Dawud is a collection of hadith compiled by Imam Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (rahimahullah). It is considered one of the six major hadith collections (Kutub al-Sittah) and contains approximately 5,274 hadith. It focuses particularly on legal hadiths that have direct bearing on jurisprudence (fiqh).",
+            "authorBio": {
+                "title": "Author Bio",
+                "content": "Abu Dawud Sulayman ibn al-Ash'ath ibn Ishaq al-Azdi al-Sijistani was born in 202 A.H. (817 CE) in Sijistan, a region between present-day Afghanistan and Iran. He was one of the most prominent hadith scholars of his generation.\n\nHe traveled extensively in search of hadith, visiting Iraq, Egypt, Syria, Khorasan, and the Hijaz. He studied under numerous teachers including Imam Ahmad ibn Hanbal, Yahya ibn Ma'in, and Ishaq ibn Rahwayh.\n\nAbu Dawud heard hadith from 300 teachers and collected approximately 500,000 hadith, from which he selected about 4,800 for his Sunan."
+            },
+            "methodology": {
+                "title": "Methods of Classification and Annotation",
+                "content": "Abu Dawud's primary focus was on collecting hadith relevant to Islamic jurisprudence. His methodology included:",
+                "points": [
+                    "Prioritizing hadith with legal implications.",
+                    "Including different grades of hadith, from sahih to daif, with clarification.",
+                    "Noting any weaknesses in the chain if present.",
+                    "Organizing hadith strictly by legal topics."
+                ],
+                "additionalInfo": "Abu Dawud stated: 'I have mentioned in my book only the sahih and what resembles and approximates it. If there is serious weakness in a hadith, I have clarified it.' This transparency in methodology distinguishes his work."
+            },
+            "students": {
+                "title": "His Students",
+                "content": "Among his students were Imam at-Tirmidhi, Imam an-Nasa'i, Abu 'Awanah, and his son Abu Bakr Abdullah. His students continued his tradition of hadith scholarship and many became prominent scholars."
+            },
+            "death": {
+                "title": "His Death",
+                "content": "Abu Dawud (rahimahullah) passed away on 16 Shawwal 275 A.H. (February 888 CE) in Basra, Iraq, at the age of 73. He was buried in Basra near the grave of Sufyan ath-Thawri."
+            },
+            "compilation": {
+                "title": "Compilation of the Book",
+                "content": "Abu Dawud compiled his Sunan over a period of 20 years. He presented it to the great Imam Ahmad ibn Hanbal, who was pleased with it. The collection is particularly valuable for its focus on legal hadith and its careful notation of any weaknesses in narration chains."
+            }
+        }
+    ]
+}

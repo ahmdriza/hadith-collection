@@ -1,0 +1,120 @@
+{
+    "topics": [
+        {
+            "id": "faith-belief",
+            "name": "Faith & Belief",
+            "arabicName": "الإيمان والعقيدة",
+            "slug": "faith-belief",
+            "description": "Hadiths related to the fundamentals of Islamic faith and belief in Allah",
+            "hadithCount": 423,
+            "subcategories": [
+                "Tawhid",
+                "Attributes of Allah",
+                "Angels",
+                "Books",
+                "Prophets"
+            ]
+        },
+        {
+            "id": "prayer-worship",
+            "name": "Prayer & Worship",
+            "arabicName": "الصلاة والعبادة",
+            "slug": "prayer-worship",
+            "description": "Comprehensive collection about Islamic prayer and various forms of worship",
+            "hadithCount": 892,
+            "subcategories": [
+                "Salah",
+                "Ablution",
+                "Friday Prayer",
+                "Night Prayer",
+                "Voluntary Prayers"
+            ]
+        },
+        {
+            "id": "fasting",
+            "name": "Fasting",
+            "arabicName": "الصيام",
+            "slug": "fasting",
+            "description": "Hadiths about fasting in Ramadan and voluntary fasting",
+            "hadithCount": 345,
+            "subcategories": [
+                "Ramadan",
+                "Voluntary Fasting",
+                "Breaking Fast",
+                "Night of Qadr"
+            ]
+        },
+        {
+            "id": "charity",
+            "name": "Charity & Zakat",
+            "arabicName": "الزكاة والصدقة",
+            "slug": "charity",
+            "description": "Guidance on obligatory charity (Zakat) and voluntary giving",
+            "hadithCount": 267,
+            "subcategories": [
+                "Zakat",
+                "Sadaqah",
+                "Spending",
+                "Wealth"
+            ]
+        },
+        {
+            "id": "manners-character",
+            "name": "Manners & Character",
+            "arabicName": "الأخلاق والآداب",
+            "slug": "manners-character",
+            "description": "Teachings about good character, ethics, and Islamic manners",
+            "hadithCount": 534,
+            "subcategories": [
+                "Good Character",
+                "Honesty",
+                "Kindness",
+                "Patience",
+                "Gratitude"
+            ]
+        },
+        {
+            "id": "family-marriage",
+            "name": "Family & Marriage",
+            "arabicName": "الأسرة والزواج",
+            "slug": "family-marriage",
+            "description": "Hadiths about marriage, family life, and relationships",
+            "hadithCount": 412,
+            "subcategories": [
+                "Marriage",
+                "Husband & Wife",
+                "Parents & Children",
+                "Relatives"
+            ]
+        },
+        {
+            "id": "business-trade",
+            "name": "Business & Trade",
+            "arabicName": "التجارة والمعاملات",
+            "slug": "business-trade",
+            "description": "Islamic guidance on business transactions and commerce",
+            "hadithCount": 298,
+            "subcategories": [
+                "Trade",
+                "Contracts",
+                "Debt",
+                "Partnership",
+                "Prohibited Transactions"
+            ]
+        },
+        {
+            "id": "knowledge-learning",
+            "name": "Knowledge & Learning",
+            "arabicName": "العلم والتعلم",
+            "slug": "knowledge-learning",
+            "description": "The importance of seeking knowledge and education in Islam",
+            "hadithCount": 189,
+            "subcategories": [
+                "Seeking Knowledge",
+                "Teaching",
+                "Scholars",
+                "Quran Study"
+            ]
+        }
+    ]
+}
