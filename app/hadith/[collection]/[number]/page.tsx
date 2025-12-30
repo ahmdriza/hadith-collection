@@ -1,10 +1,55 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import HadithDetail from '@/components/hadith/HadithDetail';
 import hadithsData from '@/data/hadiths.json';
 import collectionsData from '@/data/collections.json';
 import booksData from '@/data/books.json';
+import { Hadith } from '@/lib/types';
+
+// Dynamic metadata for SEO
+export async function generateMetadata(props: {
+    params: Promise<{ collection: string; number: string }>;
+}): Promise<Metadata> {
+    const params = await props.params;
+    const { hadiths } = hadithsData as unknown as { hadiths: Hadith[] };
+    const { collections } = collectionsData;
+
+    const currentNumber = parseInt(params.number);
+    const hadith = hadiths.find(
+        (h) => h.collectionId === params.collection && h.hadithNumber === currentNumber
+    );
+    const collection = collections.find((c) => c.id === params.collection);
+
+    if (!hadith || !collection) {
+        return {
+            title: 'Hadith Not Found | IslamQA.Ref',
+            description: 'The requested hadith could not be found.',
+        };
+    }
+
+    const truncatedText = hadith.englishText.length > 160
+        ? hadith.englishText.slice(0, 157) + '...'
+        : hadith.englishText;
+
+    return {
+        title: `${hadith.reference} | ${collection.name} | IslamQA.Ref`,
+        description: truncatedText,
+        keywords: [...hadith.topics, collection.name, 'hadith', 'Islamic', hadith.narrator],
+        openGraph: {
+            title: hadith.reference,
+            description: truncatedText,
+            type: 'article',
+            siteName: 'IslamQA.Ref',
+        },
+        twitter: {
+            card: 'summary',
+            title: hadith.reference,
+            description: truncatedText,
+        },
+    };
+}
 
 export default async function HadithDetailPage(props: {
     params: Promise<{ collection: string; number: string }>;

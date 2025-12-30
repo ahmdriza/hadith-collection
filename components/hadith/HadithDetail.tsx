@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { Bookmark, Share2, Download, Copy, ArrowLeft } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { Hadith } from '@/lib/types';
 import GradeBadge from './GradeBadge';
-import { Button } from '@/components/ui/Button';
 import DragScroll from '@/components/ui/DragScroll';
+import HadithActions from './HadithActions';
 
 interface HadithDetailProps {
     hadith: Hadith;
@@ -19,20 +19,7 @@ export default function HadithDetail({ hadith }: HadithDetailProps) {
                     </div>
                     <GradeBadge grade={hadith.grade} />
                 </div>
-                <div className="flex gap-2 flex-wrap">
-                    <Button variant="secondary" size="sm" className="gap-1 text-xs md:text-sm">
-                        <Bookmark size={14} />
-                        <span className="hidden sm:inline">Save</span>
-                    </Button>
-                    <Button variant="secondary" size="sm" className="gap-1 text-xs md:text-sm">
-                        <Share2 size={14} />
-                        <span className="hidden sm:inline">Share</span>
-                    </Button>
-                    <Button variant="secondary" size="sm" className="gap-1 text-xs md:text-sm">
-                        <Download size={14} />
-                        <span className="hidden sm:inline">Download</span>
-                    </Button>
-                </div>
+                <HadithActions hadith={hadith} />
             </div>
 
             {/* Arabic Text */}

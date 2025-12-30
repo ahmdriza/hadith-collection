@@ -1,7 +1,20 @@
+import { Metadata } from 'next';
 import collectionsData from '@/data/collections.json';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import CollectionCard from '@/components/collection/CollectionCard';
 import { Collection } from '@/lib/types';
+
+export const metadata: Metadata = {
+    title: 'Hadith Collections | IslamQA.Ref',
+    description: 'Explore the six major collections of authentic Prophetic traditions (Hadith): Sahih Bukhari, Sahih Muslim, Sunan Abu Dawud, Jami Tirmidhi, Sunan Nasai, and Sunan Ibn Majah.',
+    keywords: ['hadith collections', 'Sahih Bukhari', 'Sahih Muslim', 'Kutub al-Sittah', 'Islamic hadith'],
+    openGraph: {
+        title: 'Hadith Collections',
+        description: 'Browse authentic hadith from the six major collections.',
+        type: 'website',
+        siteName: 'IslamQA.Ref',
+    },
+};
 
 export default function CollectionsPage() {
     const collections = collectionsData.collections as Collection[];

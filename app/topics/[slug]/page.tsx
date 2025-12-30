@@ -1,7 +1,37 @@
+import { Metadata } from 'next';
 import HadithList from '@/components/hadith/HadithList';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import topicsData from '@/data/topics.json';
 import hadithsData from '@/data/hadiths.json';
+import { Hadith } from '@/lib/types';
+
+// Dynamic metadata for SEO
+export async function generateMetadata(props: {
+    params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+    const params = await props.params;
+    const { topics } = topicsData;
+    const topic = topics.find((t) => t.slug === params.slug);
+
+    if (!topic) {
+        return {
+            title: 'Topic Not Found | IslamQA.Ref',
+            description: 'The requested topic could not be found.',
+        };
+    }
+
+    return {
+        title: `${topic.name} - Hadith by Topic | IslamQA.Ref`,
+        description: `${topic.description} Browse ${topic.hadithCount} hadiths about ${topic.name.toLowerCase()}.`,
+        keywords: [topic.name, ...topic.subcategories, 'hadith', 'Islamic topics'],
+        openGraph: {
+            title: `${topic.name} - Hadiths by Topic`,
+            description: topic.description,
+            type: 'website',
+            siteName: 'IslamQA.Ref',
+        },
+    };
+}
 
 export default async function TopicDetailPage(props: {
     params: Promise<{ slug: string }>;

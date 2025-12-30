@@ -26,7 +26,7 @@
             "reference": "Sahih al-Bukhari 1"
         },
         {
-            "id": "bukhari-2",
+            "id": "bukhari-8",
             "collectionId": "sahih-bukhari",
             "bookId": "bukhari-book-2",
             "hadithNumber": 8,
@@ -76,6 +76,55 @@
             "reference": "Sahih al-Bukhari 50"
         },
         {
+            "id": "bukhari-13",
+            "collectionId": "sahih-bukhari",
+            "bookId": "bukhari-book-2",
+            "hadithNumber": 13,
+            "chapter": "Loving for others what you love for yourself",
+            "arabicText": "لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ",
+            "englishText": "None of you truly believes until he loves for his brother what he loves for himself.",
+            "narrator": "Anas ibn Malik",
+            "narratorChain": [
+                "Anas ibn Malik",
+                "Qatadah",
+                "Hammad ibn Salamah",
+                "Imam Bukhari"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith establishes the principle of brotherhood and selflessness as a requirement of true faith. It encourages Muslims to wish well for others as they wish for themselves.",
+            "topics": [
+                "faith",
+                "brotherhood",
+                "character"
+            ],
+            "reference": "Sahih al-Bukhari 13"
+        },
+        {
+            "id": "bukhari-6018",
+            "collectionId": "sahih-bukhari",
+            "bookId": "bukhari-book-3",
+            "hadithNumber": 6018,
+            "chapter": "Good conduct",
+            "arabicText": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+            "englishText": "Whoever believes in Allah and the Last Day, let him speak good or remain silent.",
+            "narrator": "Abu Huraira",
+            "narratorChain": [
+                "Abu Huraira",
+                "Al-A'raj",
+                "Abu Zunad",
+                "Malik ibn Anas",
+                "Imam Bukhari"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith teaches the importance of controlling one's tongue. It is part of a longer hadith that also mentions honoring guests and neighbors.",
+            "topics": [
+                "speech",
+                "character",
+                "faith"
+            ],
+            "reference": "Sahih al-Bukhari 6018"
+        },
+        {
             "id": "muslim-1",
             "collectionId": "sahih-muslim",
             "bookId": "muslim-book-1",
@@ -97,6 +146,53 @@
                 "faith"
             ],
             "reference": "Sahih Muslim 1"
+        },
+        {
+            "id": "muslim-45",
+            "collectionId": "sahih-muslim",
+            "bookId": "muslim-book-1",
+            "hadithNumber": 45,
+            "chapter": "The branches of faith",
+            "arabicText": "الإِيمَانُ بِضْعٌ وَسَبْعُونَ شُعْبَةً، أَعْلاَهَا قَوْلُ لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَدْنَاهَا إِمَاطَةُ الأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ",
+            "englishText": "Faith has over seventy branches. The highest is the declaration that there is no god but Allah, and the lowest is removing harmful objects from the road. And modesty is a branch of faith.",
+            "narrator": "Abu Huraira",
+            "narratorChain": [
+                "Abu Huraira",
+                "Abu Salih",
+                "Al-A'mash",
+                "Imam Muslim"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith shows that faith encompasses many aspects of life, from major declarations of belief to simple acts of kindness in daily life.",
+            "topics": [
+                "faith",
+                "modesty",
+                "good-deeds"
+            ],
+            "reference": "Sahih Muslim 45"
+        },
+        {
+            "id": "muslim-2564",
+            "collectionId": "sahih-muslim",
+            "bookId": "muslim-book-4",
+            "hadithNumber": 2564,
+            "chapter": "The prohibition of oppression",
+            "arabicText": "يَا عِبَادِي إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا فَلاَ تَظَالَمُوا",
+            "englishText": "O My servants, I have forbidden oppression for Myself and have made it forbidden amongst you, so do not oppress one another.",
+            "narrator": "Abu Dharr al-Ghifari",
+            "narratorChain": [
+                "Abu Dharr al-Ghifari",
+                "Abu Idris al-Khawlani",
+                "Imam Muslim"
+            ],
+            "grade": "Sahih",
+            "commentary": "This is part of the famous Hadith Qudsi (divine hadith) where Allah speaks directly. It establishes justice as a core divine principle.",
+            "topics": [
+                "justice",
+                "oppression",
+                "divine-attributes"
+            ],
+            "reference": "Sahih Muslim 2564"
         },
         {
             "id": "abu-dawud-4607",
@@ -121,6 +217,146 @@
                 "excellence"
             ],
             "reference": "Sunan Abu Dawud 4607"
+        },
+        {
+            "id": "abu-dawud-4800",
+            "collectionId": "sunan-abu-dawud",
+            "bookId": "abu-dawud-book-42",
+            "hadithNumber": 4800,
+            "chapter": "On humility",
+            "arabicText": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ وَمَا زَادَ اللَّهُ عَبْدًا بِعَفْوٍ إِلاَّ عِزًّا وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلاَّ رَفَعَهُ اللَّهُ",
+            "englishText": "Charity does not decrease wealth. No one forgives except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.",
+            "narrator": "Abu Huraira",
+            "narratorChain": [
+                "Abu Huraira",
+                "Al-A'raj",
+                "Abu Zunad",
+                "Imam Abu Dawud"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith encourages charity, forgiveness, and humility by assuring believers that these virtues lead to increase, not decrease.",
+            "topics": [
+                "charity",
+                "forgiveness",
+                "humility"
+            ],
+            "reference": "Sunan Abu Dawud 4800"
+        },
+        {
+            "id": "tirmidhi-1987",
+            "collectionId": "jami-tirmidhi",
+            "bookId": "tirmidhi-book-27",
+            "hadithNumber": 1987,
+            "chapter": "Keeping family ties",
+            "arabicText": "مَنْ أَحَبَّ أَنْ يُبْسَطَ لَهُ فِي رِزْقِهِ وَيُنْسَأَ لَهُ فِي أَثَرِهِ فَلْيَصِلْ رَحِمَهُ",
+            "englishText": "Whoever would like his provision to be increased and his lifespan to be extended, let him maintain family ties.",
+            "narrator": "Anas ibn Malik",
+            "narratorChain": [
+                "Anas ibn Malik",
+                "Muhammad ibn Sirin",
+                "Imam Tirmidhi"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith emphasizes the importance of maintaining family relationships and the blessings that come from doing so.",
+            "topics": [
+                "family",
+                "provision",
+                "blessings"
+            ],
+            "reference": "Jami' at-Tirmidhi 1987"
+        },
+        {
+            "id": "tirmidhi-2317",
+            "collectionId": "jami-tirmidhi",
+            "bookId": "tirmidhi-book-27",
+            "hadithNumber": 2317,
+            "chapter": "On gratitude",
+            "arabicText": "انْظُرُوا إِلَى مَنْ أَسْفَلَ مِنْكُمْ وَلاَ تَنْظُرُوا إِلَى مَنْ هُوَ فَوْقَكُمْ فَهُوَ أَجْدَرُ أَنْ لاَ تَزْدَرُوا نِعْمَةَ اللَّهِ",
+            "englishText": "Look at those who are below you and do not look at those who are above you, for it is more likely that you will not belittle Allah's blessings upon you.",
+            "narrator": "Abu Huraira",
+            "narratorChain": [
+                "Abu Huraira",
+                "Abu Salih",
+                "Imam Tirmidhi"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith teaches contentment and gratitude by advising believers to compare their situation with those less fortunate rather than the wealthy.",
+            "topics": [
+                "gratitude",
+                "contentment",
+                "blessings"
+            ],
+            "reference": "Jami' at-Tirmidhi 2317"
+        },
+        {
+            "id": "nasai-5018",
+            "collectionId": "sunan-nasai",
+            "bookId": "nasai-book-1",
+            "hadithNumber": 5018,
+            "chapter": "Description of prayer",
+            "arabicText": "صَلُّوا كَمَا رَأَيْتُمُونِي أُصَلِّي",
+            "englishText": "Pray as you have seen me praying.",
+            "narrator": "Malik ibn al-Huwayrith",
+            "narratorChain": [
+                "Malik ibn al-Huwayrith",
+                "Abu Qilabah",
+                "Ayyub",
+                "Imam Nasa'i"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith establishes the Prophet's prayer as the model for all Muslims to follow in their worship.",
+            "topics": [
+                "prayer",
+                "worship",
+                "sunnah"
+            ],
+            "reference": "Sunan an-Nasa'i 5018"
+        },
+        {
+            "id": "ibn-majah-224",
+            "collectionId": "sunan-ibn-majah",
+            "bookId": "ibn-majah-book-1",
+            "hadithNumber": 224,
+            "chapter": "Seeking knowledge",
+            "arabicText": "طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ",
+            "englishText": "Seeking knowledge is an obligation upon every Muslim.",
+            "narrator": "Anas ibn Malik",
+            "narratorChain": [
+                "Anas ibn Malik",
+                "Kathir ibn Shindhir",
+                "Imam Ibn Majah"
+            ],
+            "grade": "Hasan",
+            "commentary": "This hadith establishes that acquiring knowledge is not optional but a religious duty for every Muslim, male and female.",
+            "topics": [
+                "knowledge",
+                "education",
+                "obligation"
+            ],
+            "reference": "Sunan Ibn Majah 224"
+        },
+        {
+            "id": "ibn-majah-4102",
+            "collectionId": "sunan-ibn-majah",
+            "bookId": "ibn-majah-book-5",
+            "hadithNumber": 4102,
+            "chapter": "On trials",
+            "arabicText": "مَا أَعْطِيَ أَحَدٌ عَطَاءً خَيْرًا وَأَوْسَعَ مِنَ الصَّبْرِ",
+            "englishText": "No one has been given a gift better and more comprehensive than patience.",
+            "narrator": "Abu Sa'id al-Khudri",
+            "narratorChain": [
+                "Abu Sa'id al-Khudri",
+                "Ata ibn Yasar",
+                "Imam Ibn Majah"
+            ],
+            "grade": "Sahih",
+            "commentary": "This hadith highlights patience as the greatest gift a person can receive, emphasizing its importance in dealing with life's trials.",
+            "topics": [
+                "patience",
+                "character",
+                "trials"
+            ],
+            "reference": "Sunan Ibn Majah 4102"
         }
     ]
 }

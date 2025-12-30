@@ -1,9 +1,43 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 import { Search } from 'lucide-react';
 import collectionsData from '@/data/collections.json';
 import booksData from '@/data/books.json';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import BookCard from '@/components/collection/BookCard';
+
+// Dynamic metadata for SEO
+export async function generateMetadata(props: {
+    params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+    const params = await props.params;
+    const { collections } = collectionsData;
+    const collection = collections.find((c) => c.slug === params.slug);
+
+    if (!collection) {
+        return {
+            title: 'Collection Not Found | IslamQA.Ref',
+            description: 'The requested collection could not be found.',
+        };
+    }
+
+    return {
+        title: `${collection.name} | Hadith Collection | IslamQA.Ref`,
+        description: `${collection.description} Contains ${collection.totalHadiths.toLocaleString()} hadiths in ${collection.totalBooks} books.`,
+        keywords: [collection.name, collection.author, 'hadith', 'Islamic', collection.grade],
+        openGraph: {
+            title: collection.name,
+            description: collection.description,
+            type: 'website',
+            siteName: 'IslamQA.Ref',
+        },
+        twitter: {
+            card: 'summary',
+            title: collection.name,
+            description: collection.description,
+        },
+    };
+}
 
 export default async function CollectionPage(props: { params: Promise<{ slug: string }> }) {
     const params = await props.params;

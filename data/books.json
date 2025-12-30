@@ -49,6 +49,106 @@
             "slug": "book-of-prayer",
             "totalHadiths": 172,
             "description": "Comprehensive collection about the Islamic prayer (Salah)"
+        },
+        {
+            "id": "muslim-book-1",
+            "collectionId": "sahih-muslim",
+            "bookNumber": 1,
+            "name": "Book of Faith",
+            "arabicName": "كتاب الإيمان",
+            "slug": "book-of-faith",
+            "totalHadiths": 408,
+            "description": "Foundational hadiths about Islamic faith and its branches"
+        },
+        {
+            "id": "muslim-book-2",
+            "collectionId": "sahih-muslim",
+            "bookNumber": 2,
+            "name": "Book of Purification",
+            "arabicName": "كتاب الطهارة",
+            "slug": "book-of-purification",
+            "totalHadiths": 303,
+            "description": "Detailed guidance on ritual purification in Islam"
+        },
+        {
+            "id": "muslim-book-4",
+            "collectionId": "sahih-muslim",
+            "bookNumber": 4,
+            "name": "Book of Prayers",
+            "arabicName": "كتاب الصلاة",
+            "slug": "book-of-prayers",
+            "totalHadiths": 534,
+            "description": "Comprehensive guide to Islamic prayers and their rulings"
+        },
+        {
+            "id": "abu-dawud-book-1",
+            "collectionId": "sunan-abu-dawud",
+            "bookNumber": 1,
+            "name": "Book of Purification",
+            "arabicName": "كتاب الطهارة",
+            "slug": "book-of-purification-ad",
+            "totalHadiths": 390,
+            "description": "Rulings on purification and cleanliness"
+        },
+        {
+            "id": "abu-dawud-book-42",
+            "collectionId": "sunan-abu-dawud",
+            "bookNumber": 42,
+            "name": "Book of Good Manners",
+            "arabicName": "كتاب الأدب",
+            "slug": "book-of-good-manners",
+            "totalHadiths": 171,
+            "description": "Hadiths about proper conduct and good character"
+        },
+        {
+            "id": "tirmidhi-book-1",
+            "collectionId": "jami-tirmidhi",
+            "bookNumber": 1,
+            "name": "Book of Purification",
+            "arabicName": "كتاب الطهارة",
+            "slug": "book-of-purification-t",
+            "totalHadiths": 148,
+            "description": "Rulings on ritual purity from Imam Tirmidhi"
+        },
+        {
+            "id": "tirmidhi-book-27",
+            "collectionId": "jami-tirmidhi",
+            "bookNumber": 27,
+            "name": "Book of Righteousness",
+            "arabicName": "كتاب البر والصلة",
+            "slug": "book-of-righteousness",
+            "totalHadiths": 122,
+            "description": "Hadiths about good conduct and maintaining family ties"
+        },
+        {
+            "id": "nasai-book-1",
+            "collectionId": "sunan-nasai",
+            "bookNumber": 1,
+            "name": "Book of Purification",
+            "arabicName": "كتاب الطهارة",
+            "slug": "book-of-purification-n",
+            "totalHadiths": 325,
+            "description": "Comprehensive guidance on purification from Imam Nasa'i"
+        },
+        {
+            "id": "ibn-majah-book-1",
+            "collectionId": "sunan-ibn-majah",
+            "bookNumber": 1,
+            "name": "Book of Purification",
+            "arabicName": "كتاب الطهارة وسننها",
+            "slug": "book-of-purification-im",
+            "totalHadiths": 270,
+            "description": "Rulings on purification from Ibn Majah's collection"
+        },
+        {
+            "id": "ibn-majah-book-5",
+            "collectionId": "sunan-ibn-majah",
+            "bookNumber": 5,
+            "name": "Book of the Adhan",
+            "arabicName": "كتاب الأذان",
+            "slug": "book-of-adhan",
+            "totalHadiths": 47,
+            "description": "Hadiths about the call to prayer"
         }
     ]
 }
