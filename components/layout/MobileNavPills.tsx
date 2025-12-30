@@ -2,34 +2,52 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { ChevronDown } from 'lucide-react';
 import collectionsData from '@/data/collections.json';
 import topicsData from '@/data/topics.json';
 
 export default function MobileNavPills() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+    const contentRef = useRef<HTMLDivElement>(null);
+    const [contentHeight, setContentHeight] = useState(0);
     const { collections } = collectionsData;
     const { topics } = topicsData;
 
     // Determine active collection from URL
     const activeCollectionSlug = pathname.split('/')[2] || '';
 
+    // Measure content height for animation
+    useEffect(() => {
+        if (contentRef.current) {
+            setContentHeight(contentRef.current.scrollHeight);
+        }
+    }, []);
+
     return (
-        <div className="md:hidden mb-4">
+        <div className="md:hidden mb-0">
             {/* Toggle Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="flex items-center gap-1.5 text-xs text-gray-500 hover:text-gray-700 transition-colors mb-2"
             >
-                {isOpen ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+                <ChevronDown
+                    size={14}
+                    className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+                />
                 <span>{isOpen ? 'Hide' : 'Browse'}</span>
             </button>
 
-            {/* Pills Container - Only show when open */}
-            {isOpen && (
-                <div className="space-y-2 animate-in slide-in-from-top-2 duration-200">
+            {/* Pills Container - Animated height */}
+            <div
+                className="overflow-hidden transition-all duration-300 ease-in-out"
+                style={{
+                    maxHeight: isOpen ? `${contentHeight}px` : '0px',
+                    opacity: isOpen ? 1 : 0
+                }}
+            >
+                <div ref={contentRef} className="space-y-2 pb-1">
                     {/* Collections Pills */}
                     <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-1">
                         {collections.map((collection) => (
@@ -68,7 +86,7 @@ export default function MobileNavPills() {
                         </Link>
                     </div>
                 </div>
-            )}
+            </div>
         </div>
     );
 }
