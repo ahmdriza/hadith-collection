@@ -35,7 +35,7 @@ export default function RootLayout({
           <Sidebar />
 
           {/* Main Feed */}
-          <main className="flex-1 px-3 py-4 md:p-8 w-full min-w-0">
+          <main className="flex-1 px-3 py-2 md:p-8 w-full min-w-0">
             {/* Mobile Navigation Pills */}
             <MobileNavPills />
 

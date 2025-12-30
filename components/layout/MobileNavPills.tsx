@@ -18,12 +18,21 @@ export default function MobileNavPills() {
     // Determine active collection from URL
     const activeCollectionSlug = pathname.split('/')[2] || '';
 
+    // Check if current page is a book page or hadith detail page
+    const pathParts = pathname.split('/').filter(Boolean);
+    const isBookPage = pathParts[0] === 'collections' && pathParts.length >= 2;
+    const isHadithPage = pathParts[0] === 'hadith' && pathParts.length >= 2;
+    const shouldShow = isBookPage || isHadithPage;
+
     // Measure content height for animation
     useEffect(() => {
         if (contentRef.current) {
             setContentHeight(contentRef.current.scrollHeight);
         }
     }, []);
+
+    // Don't render if not on book or hadith page
+    if (!shouldShow) return null;
 
     return (
         <div className="md:hidden mb-0">
@@ -55,8 +64,8 @@ export default function MobileNavPills() {
                                 key={collection.id}
                                 href={`/collections/${collection.slug}`}
                                 className={`flex-shrink-0 px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${activeCollectionSlug === collection.slug
-                                        ? 'bg-primary-600 text-white'
-                                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                    ? 'bg-primary-600 text-white'
+                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                     }`}
                             >
                                 {collection.name}
@@ -71,8 +80,8 @@ export default function MobileNavPills() {
                                 key={topic.id}
                                 href={`/topics/${topic.slug}`}
                                 className={`flex-shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${pathname === `/topics/${topic.slug}`
-                                        ? 'bg-blue-600 text-white'
-                                        : 'bg-blue-50 text-blue-700 hover:bg-blue-100'
+                                    ? 'bg-blue-600 text-white'
+                                    : 'bg-blue-50 text-blue-700 hover:bg-blue-100'
                                     }`}
                             >
                                 {topic.name}

@@ -36,7 +36,7 @@ export default function HadithDetail({ hadith }: HadithDetailProps) {
             </div>
 
             {/* Arabic Text */}
-            <div className="bg-primary-50/30 p-4 md:p-6 rounded-xl mb-6 md:mb-8">
+            <div className="bg-primary-50/30 p-2 md:p-6 rounded-xl">
                 <div className="text-xl md:text-2xl text-right leading-[1.8] md:leading-[2] font-arabic text-gray-900">
                     {hadith.arabicText}
                 </div>
