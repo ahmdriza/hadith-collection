@@ -27,9 +27,19 @@ export default function MobileNavPills() {
     // Measure content height for animation
     useEffect(() => {
         if (contentRef.current) {
-            setContentHeight(contentRef.current.scrollHeight);
+            // Use a small delay to ensure content is rendered before measuring
+            const measureHeight = () => {
+                if (contentRef.current) {
+                    setContentHeight(contentRef.current.scrollHeight);
+                }
+            };
+
+            // Measure immediately and after a short delay for safety
+            measureHeight();
+            const timeout = setTimeout(measureHeight, 50);
+            return () => clearTimeout(timeout);
         }
-    }, []);
+    }, [isOpen]);
 
     // Don't render if not on book or hadith page
     if (!shouldShow) return null;
