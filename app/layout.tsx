@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Sidebar from "@/components/layout/Sidebar";
 import Footer from "@/components/layout/Footer";
+import MobileNavPills from "@/components/layout/MobileNavPills";
 
 const inter = Inter({ subsets: ["latin"] });
 const amiri = Amiri({
@@ -35,6 +36,9 @@ export default function RootLayout({
 
           {/* Main Feed */}
           <main className="flex-1 px-3 py-4 md:p-8 w-full min-w-0">
+            {/* Mobile Navigation Pills */}
+            <MobileNavPills />
+
             {children}
           </main>
         </div>
